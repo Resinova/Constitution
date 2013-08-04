@@ -1,0 +1,138 @@
+body {
+	background-color: black;
+	background-image: url("images/bg.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: bottom right;
+	font-family: 'Armata', sans-serif;
+	font-size: 1em;
+	color: black;
+}
+
+header img {
+	color: #FFFFFF;
+	width: 105%;
+	height: auto;
+	margin-left: -2.5%;
+	border-bottom: 5px solid white;
+	border-top: 1px solid white;
+}
+
+h1 {
+	font-size: 200%;
+	color: #FFFFFF;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	text-shadow: 0 0 0.2em #FFF, 0 0 0.2em #FFF, 0 0 0.2em #FFF;
+	float: left;
+	margin-top: -0.5%;
+	margin-bottom: -0.5%;
+	display: inline-block;
+	float: left;
+	letter-spacing: 5px;
+}
+
+nav {
+	color: #FFFFFF;
+	display: inline-block;
+	float: right;
+	word-spacing: 15px;
+	font-size: 150%;
+	padding-top: 5px; 
+}
+
+footer {
+	background-color: #007E8C;
+	font-size: 90%;
+	word-spacing: 40px;
+	letter-spacing: 5px;
+	color: #FFFFFF;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	width: 950px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	margin-bottom: 20px;
+}
+
+.largeh1 {
+	font-size: 110%;
+	text-transform: uppercase;
+}
+
+#content {
+	margin-left: auto;
+	font-size: 120%;
+	margin-right: auto;
+	width: 940px;
+	margin-top: -29px;
+	background-color: white;
+	position: relative;
+	padding-left: 10px;
+	padding-bottom: 10px;
+	padding-right: 10px;
+	border-left: 1px solid #007E8C;
+	border-bottom: 1px solid black;
+	line-height: 230%;
+}
+
+a.header:link {
+	text-decoration: none;
+}
+
+nav a:link {
+	text-decoration: none;
+	color: white;
+}
+
+nav a:visited {
+	color: white;
+}
+
+nav a:hover {
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	text-shadow: 0 0 0.2em #FFF, 0 0 0.2em #FFF, 0 0 0.2em #FFF;
+}
+
+footer a:link {
+	text-decoration: none;
+	color: white;
+}
+
+footer a:visited {
+	color: white;
+}
+
+footer a:hover {
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	text-shadow: 0 0 0.2em #FFF, 0 0 0.2em #FFF, 0 0 0.2em #FFF;
+}
+
+h2 {
+	font-family: 'Montserrat Alternates', sans-serif;
+	font-size: 180%;
+	letter-spacing: 2px;
+	margin-bottom: 5px;
+}
+
+#content a:link {
+	text-decoration: none;
+	color: #01A5C8;
+}
+
+#content a:visited {
+	text-decoration: none;
+	color: #01A5C8;
+}
+
+#content a:hover {
+	color: white;
+	background-color: #01A5C8;
+}
+
+.center {
+	text-align: center;
+}
